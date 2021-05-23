@@ -1,0 +1,22 @@
+.products {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+.product {
+  
+  flex: 1 1 auto;
+  margin: 0.3em;
+  border: 1px solid black;
+  position: relative;
+  width: 12em;
+  height: 13em;
+  overflow: hidden;
+  background-size:contain;
+}
